@@ -28,11 +28,7 @@ class Triangle
                 !(@side_1 < 0 && @side_2 < 0 && @side_3 < 0)
       :scalene
     else
-      begin 
-        raise TriangleError
-      rescue TriangleError => error
-        puts error.message
-      end
+      raise TriangleError
     end
       
   end
