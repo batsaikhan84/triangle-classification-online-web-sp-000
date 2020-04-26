@@ -39,7 +39,7 @@ class Triangle
   
   class TriangleError < StandardError
     def message
-      "This is custom message"
+      "This is a custom message"
     end
   end
 end
